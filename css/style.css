@@ -3560,3 +3560,10 @@ label {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+
+/* main  */
+.deactived {
+
+  pointer-events: none;
+}
