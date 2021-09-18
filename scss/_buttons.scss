@@ -1,10 +1,19 @@
 /* Button */
+
+.deactived {
+
+  pointer-events: none;
+  cursor: default;
+}
+
 .btn {
+
   &:active,
   &:focus {
-      box-shadow: none !important;
+    box-shadow: none !important;
   }
 }
+
 .btn-primary,
 .btn-dark {
   border: 0;
@@ -16,8 +25,9 @@
   font-family: $font-secondary;
   transition: 350ms;
   font-size: 14px;
+
   @include tablet {
-      font-size: 13px;
+    font-size: 13px;
   }
 }
 
@@ -39,10 +49,11 @@
 .btn-white.btn-primary:hover {
   background: #111;
   color: #fff;
+
   &:active,
   &:focus {
-      color: #fff;
-      background-color: #111 !important;
+    color: #fff;
+    background-color: #111 !important;
   }
 }
 
